@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+   overflow: hidden;
+   font-family: sans-serif;
+   font-weight: 500px;
+   margin: 25px;
+
+}
+
+.navbar {
+    justify-content: space-between;
+
+}
+.navbar img ul li{
+    display: inline;
+}
+
+.img{
+   text-align: center;
+   height: 29.46px;
+   width: 167.02px;
+   
+}
+
+.ul{
+    float: right;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 25px;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    padding-right: 25px;
+    list-style-type:none;
+}
+body{
+    background-image: url(Object.png);
+}
+
+.firstSection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+.schooledMenu{
+    justify-content: center;
+    display: block;
+    margin-top: 80px;
+}
+.schooledTitle{
+    font-size: 120px;
+    color: white;
+    align-self: center;
+    justify-content: center;
+}
+.schooledActn{
+    align-self: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    color: white;
+    margin: 25px;
+}
+.schooledBtn{
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    margin-bottom: 100px;
+    background-color: #C271FF;
+    color: white;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.learn{
+    color: white;
+}
+
+.lrnWrd{
+    color: #C271FF;
+}
+.thePros{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    color: white;
+    padding: 80px;
+}
+.proImg{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+
+}
+.secondSection{
+    background-color: #C271FF;
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+.secondQuote{
+    color: white;
+    margin: 25px;
+    height: 70px;
+    width: 500px;
+}
+
+.thirdSection{
+    background-color: white;
+    
+}
+.thirdHeader{
+    text-align: center;
+
+}
+.thirdTutorials{
+    
+}
+.tuts{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 24px;
+    color:black;
+    padding: 80px;
+}
+
+.eachTut{
+    
+}
+
