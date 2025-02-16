@@ -3,6 +3,8 @@
     padding: 0;
     
 }
+body{
+}
 
 .header{
    overflow: hidden;
@@ -21,7 +23,6 @@
 }
 
 .img{
-   text-align: center;
    height: 29.46px;
    width: 167.02px;
    
@@ -121,24 +122,151 @@ body{
 
 .thirdSection{
     background-color: white;
-    
+    align-items: center; 
 }
 .thirdHeader{
     text-align: center;
+    padding: 30px;
 
 }
-.thirdTutorials{
+.thirdtutorials{
     
+    padding: 5px;
 }
 .tuts{
-    display: inline-block;
-    justify-content: space-between;
-    margin: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: inherit;
+    justify-items: center;
     color:black;
-    padding: 80px;
+    max-width: 5px;
 }
 
 .eachTut{
+    padding: 25px;
+    margin: 5px;
+}
+.mainBox{
+    position: relative;
     
 }
+.playBox{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
 
+.phillRev{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.philImg{
+   width: 30px;
+   padding: 25px 0;
+}
+
+.philltxt{
+    display: inline;
+    white-space: nowrap;
+    text-align: justify;
+    min-width: 75%;
+    color: #C271FF;
+    padding: 25px;
+    width: 100px;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    color: #C271FF;
+}
+.greystar{
+    color: rgb(97, 97, 97);
+}
+
+.time{
+    color: #C271FF;
+}
+
+.fourthSection{
+    background-color: rgb(07, 16, 29);
+}
+.ftSctnTtl{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.ftSctnCntnt{
+    display: flex;
+    color: white;
+    padding: 25px;
+}
+.ftSctnRegBtn{
+    text-align: center;
+    margin: 25px;
+    color: white;
+    background-color: rgb(07, 16, 29);
+}
+.mbshpcrd{
+    text-align: center;
+    padding: 25px;
+    
+}
+.smile{
+    
+    padding: 25px;
+}
+.lorem{
+    padding: 25px;
+}
+.loremP{
+    text-align:justify;
+    letter-spacing: 0px;
+}
+.qns{
+    text-align: center;
+    padding: 25px;
+
+}
+.faqSctn{
+    background-color: white;
+}
+.wholeQn{
+    display: flex;
+    padding: 25px;
+}
+.eachQn{
+  
+}
+.indQn{
+    padding: 25px;
+    margin: 5px;
+}
+.indAns{
+   padding: 0 25px;
+   
+  
+}
+.endPoint{
+    background-color: rgb(07, 16, 29);
+}
+.footerSctn{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.iconSM{
+    color: white;
+}   
+.copyright{
+    color: white;
+    text-align: center;
+} 
