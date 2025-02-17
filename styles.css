@@ -130,21 +130,22 @@ body{
 
 }
 .thirdtutorials{
-    
+    justify-content: center;
     padding: 5px;
+   
+    
 }
 .tuts{
     display: flex;
-    flex-wrap: nowrap;
-    flex-shrink: inherit;
     justify-items: center;
     color:black;
-    max-width: 5px;
+   
 }
 
 .eachTut{
     padding: 25px;
     margin: 5px;
+    width: auto;
 }
 .mainBox{
     position: relative;
@@ -211,7 +212,6 @@ body{
 }
 .ftSctnRegBtn{
     text-align: center;
-    margin: 25px;
     color: white;
     background-color: rgb(07, 16, 29);
 }
@@ -260,11 +260,13 @@ body{
 }
 .footerSctn{
     display: flex;
-    justify-content: space-between;
     padding: 25px;
+    justify-content: space-between;
 }
 .iconSM{
     color: white;
+    float: right;
+    
 }   
 .copyright{
     color: white;
