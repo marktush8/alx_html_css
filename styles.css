@@ -132,6 +132,7 @@ body{
 .thirdtutorials{
     justify-content: center;
     padding: 5px;
+    overflow-x: scroll;
    
     
 }
